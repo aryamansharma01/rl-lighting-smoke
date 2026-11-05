@@ -1,0 +1,136 @@
+{
+ "measured": {
+  "probe_gpu": "NVIDIA A100-SXM4-40GB",
+  "mem_cap_gb": 31.7,
+  "peak_gb_overall": 5.969938944,
+  "status": "ok",
+  "sample_s_per_image_10steps": 0.6580145955085754,
+  "train_s_per_timestep": 0.6913358138667213,
+  "c_train_measured": 10.506383244950648,
+  "ssis_s_per_image": 0.055276740342378616,
+  "ssis_gpu": "NVIDIA A10"
+ },
+ "v100_scaling_assumption": [
+  2.0,
+  3.0
+ ],
+ "configs": {
+  "flowgrpo_default_100ep": {
+   "groups": 48,
+   "group_size": 24,
+   "train_steps": 10,
+   "timestep_fraction": 0.99,
+   "epochs": 100
+  },
+  "flowgrpo_default_1000ep": {
+   "groups": 48,
+   "group_size": 24,
+   "train_steps": 10,
+   "timestep_fraction": 0.99,
+   "epochs": 1000
+  },
+  "cutdown_8x8_100ep": {
+   "groups": 8,
+   "group_size": 8,
+   "train_steps": 10,
+   "timestep_fraction": 0.99,
+   "epochs": 100
+  },
+  "cutdown_8x8_300ep_tf0.5": {
+   "groups": 8,
+   "group_size": 8,
+   "train_steps": 10,
+   "timestep_fraction": 0.5,
+   "epochs": 300
+  },
+  "cutdown_16x8_200ep": {
+   "groups": 16,
+   "group_size": 8,
+   "train_steps": 10,
+   "timestep_fraction": 0.99,
+   "epochs": 200
+  }
+ },
+ "estimates": {
+  "flowgrpo_default_100ep": {
+   "images_per_epoch": 1152,
+   "T_train": 9,
+   "sec_per_image": {
+    "sample": 0.6580145955085754,
+    "reward": 0.055276740342378616,
+    "train": 6.222022324800491
+   },
+   "sec_per_image_total": 6.935313660651445,
+   "gpu_hours_measured_gpu": 221.93003714084625,
+   "gpu_hours_v100_range": [
+    443.8600742816925,
+    665.7901114225388
+   ],
+   "wall_hours_per_epoch_1gpu": 2.2193003714084627
+  },
+  "flowgrpo_default_1000ep": {
+   "images_per_epoch": 1152,
+   "T_train": 9,
+   "sec_per_image": {
+    "sample": 0.6580145955085754,
+    "reward": 0.055276740342378616,
+    "train": 6.222022324800491
+   },
+   "sec_per_image_total": 6.935313660651445,
+   "gpu_hours_measured_gpu": 2219.3003714084625,
+   "gpu_hours_v100_range": [
+    4438.600742816925,
+    6657.901114225388
+   ],
+   "wall_hours_per_epoch_1gpu": 2.2193003714084627
+  },
+  "cutdown_8x8_100ep": {
+   "images_per_epoch": 64,
+   "T_train": 9,
+   "sec_per_image": {
+    "sample": 0.6580145955085754,
+    "reward": 0.055276740342378616,
+    "train": 6.222022324800491
+   },
+   "sec_per_image_total": 6.935313660651445,
+   "gpu_hours_measured_gpu": 12.329446507824791,
+   "gpu_hours_v100_range": [
+    24.658893015649582,
+    36.98833952347437
+   ],
+   "wall_hours_per_epoch_1gpu": 0.12329446507824791
+  },
+  "cutdown_8x8_300ep_tf0.5": {
+   "images_per_epoch": 64,
+   "T_train": 5,
+   "sec_per_image": {
+    "sample": 0.6580145955085754,
+    "reward": 0.055276740342378616,
+    "train": 3.4566790693336062
+   },
+   "sec_per_image_total": 4.169970405184561,
+   "gpu_hours_measured_gpu": 22.239842160984324,
+   "gpu_hours_v100_range": [
+    44.47968432196865,
+    66.71952648295297
+   ],
+   "wall_hours_per_epoch_1gpu": 0.07413280720328108
+  },
+  "cutdown_16x8_200ep": {
+   "images_per_epoch": 128,
+   "T_train": 9,
+   "sec_per_image": {
+    "sample": 0.6580145955085754,
+    "reward": 0.055276740342378616,
+    "train": 6.222022324800491
+   },
+   "sec_per_image_total": 6.935313660651445,
+   "gpu_hours_measured_gpu": 49.317786031299164,
+   "gpu_hours_v100_range": [
+    98.63557206259833,
+    147.9533580938975
+   ],
+   "wall_hours_per_epoch_1gpu": 0.24658893015649583
+  }
+ }
+}

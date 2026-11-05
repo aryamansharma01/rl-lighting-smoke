@@ -1,0 +1,7 @@
+{
+ "_comment": "Read at runtime by the T1/T2 scripts (queued jobs keep their place). Delete this file to restore the full plan.",
+ "seeds": 4,
+ "steps": [40],
+ "skip_gate_sweep": true,
+ "label_shared": 0
+}

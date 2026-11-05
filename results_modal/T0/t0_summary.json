@@ -1,0 +1,186 @@
+{
+ "mean_luminance_class0": 74.4958184070219,
+ "mean_luminance_class1": 48.950596638551815,
+ "class1_is_darker_in_frac_of_pairs": 0.5714285714285714,
+ "per_image": {
+  "test-1": {
+   "n_instances": 2,
+   "n_pairs": 1,
+   "instances": [
+    {
+     "cls": 0,
+     "score": 0.82,
+     "pair": 1,
+     "area": 54801,
+     "mean_lum": 26.8,
+     "offset": [
+      -0.211,
+      0.589
+     ]
+    },
+    {
+     "cls": 1,
+     "score": 0.798,
+     "pair": 1,
+     "area": 23116,
+     "mean_lum": 41.5,
+     "offset": [
+      0.174,
+      -0.658
+     ]
+    }
+   ]
+  },
+  "test-2": {
+   "n_instances": 2,
+   "n_pairs": 1,
+   "instances": [
+    {
+     "cls": 1,
+     "score": 0.692,
+     "pair": 1,
+     "area": 114843,
+     "mean_lum": 71.8,
+     "offset": [
+      0.183,
+      -2.218
+     ]
+    },
+    {
+     "cls": 0,
+     "score": 0.694,
+     "pair": 1,
+     "area": 525573,
+     "mean_lum": 100.8,
+     "offset": [
+      -0.087,
+      2.83
+     ]
+    }
+   ]
+  },
+  "test-3": {
+   "n_instances": 6,
+   "n_pairs": 3,
+   "instances": [
+    {
+     "cls": 0,
+     "score": 0.767,
+     "pair": 1,
+     "area": 28863,
+     "mean_lum": 126.0,
+     "offset": [
+      -1.323,
+      0.987
+     ]
+    },
+    {
+     "cls": 1,
+     "score": 0.718,
+     "pair": 1,
+     "area": 4704,
+     "mean_lum": 31.0,
+     "offset": [
+      1.169,
+      -0.856
+     ]
+    },
+    {
+     "cls": 1,
+     "score": 0.795,
+     "pair": 2,
+     "area": 8402,
+     "mean_lum": 31.9,
+     "offset": [
+      1.057,
+      -1.138
+     ]
+    },
+    {
+     "cls": 0,
+     "score": 0.79,
+     "pair": 2,
+     "area": 34715,
+     "mean_lum": 65.3,
+     "offset": [
+      -1.052,
+      1.368
+     ]
+    },
+    {
+     "cls": 0,
+     "score": 0.83,
+     "pair": 3,
+     "area": 25351,
+     "mean_lum": 106.8,
+     "offset": [
+      -0.29,
+      0.958
+     ]
+    },
+    {
+     "cls": 1,
+     "score": 0.707,
+     "pair": 3,
+     "area": 3122,
+     "mean_lum": 30.3,
+     "offset": [
+      0.431,
+      -0.871
+     ]
+    }
+   ]
+  },
+  "test-4": {
+   "n_instances": 4,
+   "n_pairs": 2,
+   "instances": [
+    {
+     "cls": 1,
+     "score": 0.717,
+     "pair": 1,
+     "area": 14987,
+     "mean_lum": 52.8,
+     "offset": [
+      0.305,
+      -1.424
+     ]
+    },
+    {
+     "cls": 0,
+     "score": 0.709,
+     "pair": 1,
+     "area": 53378,
+     "mean_lum": 37.2,
+     "offset": [
+      -0.019,
+      1.281
+     ]
+    },
+    {
+     "cls": 0,
+     "score": 0.682,
+     "pair": 2,
+     "area": 13772,
+     "mean_lum": 58.5,
+     "offset": [
+      0.069,
+      0.831
+     ]
+    },
+    {
+     "cls": 1,
+     "score": 0.654,
+     "pair": 2,
+     "area": 2734,
+     "mean_lum": 83.3,
+     "offset": [
+      -0.029,
+      -0.669
+     ]
+    }
+   ]
+  }
+ },
+ "n_pairs_total": 7
+}

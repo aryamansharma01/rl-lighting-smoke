@@ -1,0 +1,379 @@
+{
+ "n_images": 96,
+ "n_mirrored": 96,
+ "verifier_coverage_all": {
+  "pct": 97.9,
+  "k": 94,
+  "n": 96,
+  "ci95": [
+   92.7,
+   99.4
+  ]
+ },
+ "flip_consistency": {
+  "pct": 97.8,
+  "k": 90,
+  "n": 92,
+  "ci95": [
+   92.4,
+   99.4
+  ]
+ },
+ "verifier_agrees_with_prompt_on_gated": {
+  "pct": 56.4,
+  "k": 53,
+  "n": 94,
+  "ci95": [
+   46.3,
+   66.0
+  ]
+ },
+ "group_reward_std": {
+  "group_size": [
+   4
+  ],
+  "n_groups": 24,
+  "mean": 0.612,
+  "median": 0.658,
+  "frac_groups_std_gt_th": {
+   "pct": 100.0,
+   "k": 24,
+   "n": 24,
+   "ci95": [
+    86.2,
+    100.0
+   ]
+  },
+  "std_threshold": 0.05,
+  "frac_groups_all_gated": {
+   "pct": 91.7,
+   "k": 22,
+   "n": 24,
+   "ci95": [
+    74.2,
+    97.7
+   ]
+  },
+  "frac_groups_none_gated": {
+   "pct": 0.0,
+   "k": 0,
+   "n": 24,
+   "ci95": [
+    0.0,
+    13.8
+   ]
+  }
+ },
+ "label_files": [
+  "labels_A.csv",
+  "labels_B.csv",
+  "labels_C.csv"
+ ],
+ "n_labeled": 96,
+ "label_counts": {
+  "L": 52,
+  "R": 40,
+  "A": 4,
+  "N": 0
+ },
+ "base_side_accuracy": {
+  "all": {
+   "pct": 56.2,
+   "k": 54,
+   "n": 96,
+   "ci95": [
+    46.3,
+    65.7
+   ]
+  },
+  "on_LR_only": {
+   "pct": 58.7,
+   "k": 54,
+   "n": 92,
+   "ci95": [
+    48.5,
+    68.2
+   ]
+  },
+  "by_phrasing": {
+   "light": {
+    "pct": 70.8,
+    "k": 34,
+    "n": 48,
+    "ci95": [
+     56.8,
+     81.8
+    ]
+   },
+   "shadow": {
+    "pct": 41.7,
+    "k": 20,
+    "n": 48,
+    "ci95": [
+     28.8,
+     55.7
+    ]
+   }
+  },
+  "by_target": {
+   "left": {
+    "pct": 62.5,
+    "k": 30,
+    "n": 48,
+    "ci95": [
+     48.4,
+     74.8
+    ]
+   },
+   "right": {
+    "pct": 50.0,
+    "k": 24,
+    "n": 48,
+    "ci95": [
+     36.4,
+     63.6
+    ]
+   }
+  }
+ },
+ "verifier_vs_humans": {
+  "coverage_on_human_LR": {
+   "pct": 97.8,
+   "k": 90,
+   "n": 92,
+   "ci95": [
+    92.4,
+    99.4
+   ]
+  },
+  "accuracy_on_gated_LR": {
+   "pct": 91.1,
+   "k": 82,
+   "n": 90,
+   "ci95": [
+    83.4,
+    95.4
+   ]
+  },
+  "false_gate_rate_on_human_N": {
+   "pct": null,
+   "k": 0,
+   "n": 0,
+   "ci95": null
+  },
+  "gate_rate_on_human_A": {
+   "pct": 100.0,
+   "k": 4,
+   "n": 4,
+   "ci95": [
+    51.0,
+    100.0
+   ]
+  },
+  "bar_pct": 85
+ },
+ "best_of_n": {
+  "n_prompts": 24,
+  "best_acc_pct": 91.7,
+  "random_acc_pct": 56.2,
+  "gap_pts": 35.4,
+  "gap_ci95_pts": [
+   24.0,
+   46.9
+  ],
+  "per_prompt": [
+   {
+    "prompt_id": "p00",
+    "top1": "p00_s0_n40",
+    "top1_correct": 1.0,
+    "random_acc": 0.5,
+    "n": 4,
+    "top1_reward": 0.98
+   },
+   {
+    "prompt_id": "p01",
+    "top1": "p01_s2_n40",
+    "top1_correct": 1.0,
+    "random_acc": 0.75,
+    "n": 4,
+    "top1_reward": 0.928
+   },
+   {
+    "prompt_id": "p02",
+    "top1": "p02_s2_n40",
+    "top1_correct": 1.0,
+    "random_acc": 0.5,
+    "n": 4,
+    "top1_reward": 0.442
+   },
+   {
+    "prompt_id": "p03",
+    "top1": "p03_s2_n40",
+    "top1_correct": 1.0,
+    "random_acc": 0.75,
+    "n": 4,
+    "top1_reward": 0.712
+   },
+   {
+    "prompt_id": "p04",
+    "top1": "p04_s0_n40",
+    "top1_correct": 1.0,
+    "random_acc": 0.5,
+    "n": 4,
+    "top1_reward": 0.947
+   },
+   {
+    "prompt_id": "p05",
+    "top1": "p05_s2_n40",
+    "top1_correct": 1.0,
+    "random_acc": 0.75,
+    "n": 4,
+    "top1_reward": 0.924
+   },
+   {
+    "prompt_id": "p06",
+    "top1": "p06_s1_n40",
+    "top1_correct": 1.0,
+    "random_acc": 0.75,
+    "n": 4,
+    "top1_reward": 0.998
+   },
+   {
+    "prompt_id": "p07",
+    "top1": "p07_s3_n40",
+    "top1_correct": 1.0,
+    "random_acc": 0.25,
+    "n": 4,
+    "top1_reward": 0.839
+   },
+   {
+    "prompt_id": "p08",
+    "top1": "p08_s0_n40",
+    "top1_correct": 1.0,
+    "random_acc": 0.5,
+    "n": 4,
+    "top1_reward": 0.902
+   },
+   {
+    "prompt_id": "p09",
+    "top1": "p09_s3_n40",
+    "top1_correct": 0.0,
+    "random_acc": 0.25,
+    "n": 4,
+    "top1_reward": 0.058
+   },
+   {
+    "prompt_id": "p10",
+    "top1": "p10_s0_n40",
+    "top1_correct": 1.0,
+    "random_acc": 0.5,
+    "n": 4,
+    "top1_reward": 0.786
+   },
+   {
+    "prompt_id": "p11",
+    "top1": "p11_s1_n40",
+    "top1_correct": 1.0,
+    "random_acc": 0.75,
+    "n": 4,
+    "top1_reward": 0.813
+   },
+   {
+    "prompt_id": "p12",
+    "top1": "p12_s0_n40",
+    "top1_correct": 1.0,
+    "random_acc": 0.5,
+    "n": 4,
+    "top1_reward": 0.93
+   },
+   {
+    "prompt_id": "p13",
+    "top1": "p13_s2_n40",
+    "top1_correct": 1.0,
+    "random_acc": 0.25,
+    "n": 4,
+    "top1_reward": 0.808
+   },
+   {
+    "prompt_id": "p14",
+    "top1": "p14_s1_n40",
+    "top1_correct": 1.0,
+    "random_acc": 1.0,
+    "n": 4,
+    "top1_reward": 0.628
+   },
+   {
+    "prompt_id": "p15",
+    "top1": "p15_s3_n40",
+    "top1_correct": 1.0,
+    "random_acc": 0.25,
+    "n": 4,
+    "top1_reward": 0.658
+   },
+   {
+    "prompt_id": "p16",
+    "top1": "p16_s3_n40",
+    "top1_correct": 1.0,
+    "random_acc": 0.75,
+    "n": 4,
+    "top1_reward": 0.991
+   },
+   {
+    "prompt_id": "p17",
+    "top1": "p17_s1_n40",
+    "top1_correct": 1.0,
+    "random_acc": 0.25,
+    "n": 4,
+    "top1_reward": 0.974
+   },
+   {
+    "prompt_id": "p18",
+    "top1": "p18_s2_n40",
+    "top1_correct": 1.0,
+    "random_acc": 0.75,
+    "n": 4,
+    "top1_reward": 0.934
+   },
+   {
+    "prompt_id": "p19",
+    "top1": "p19_s3_n40",
+    "top1_correct": 1.0,
+    "random_acc": 0.75,
+    "n": 4,
+    "top1_reward": 0.595
+   },
+   {
+    "prompt_id": "p20",
+    "top1": "p20_s0_n40",
+    "top1_correct": 0.0,
+    "random_acc": 0.25,
+    "n": 4,
+    "top1_reward": 0.95
+   },
+   {
+    "prompt_id": "p21",
+    "top1": "p21_s0_n40",
+    "top1_correct": 1.0,
+    "random_acc": 0.75,
+    "n": 4,
+    "top1_reward": 0.9
+   },
+   {
+    "prompt_id": "p22",
+    "top1": "p22_s2_n40",
+    "top1_correct": 1.0,
+    "random_acc": 1.0,
+    "n": 4,
+    "top1_reward": 0.972
+   },
+   {
+    "prompt_id": "p23",
+    "top1": "p23_s3_n40",
+    "top1_correct": 1.0,
+    "random_acc": 0.25,
+    "n": 4,
+    "top1_reward": 0.734
+   }
+  ]
+ }
+}

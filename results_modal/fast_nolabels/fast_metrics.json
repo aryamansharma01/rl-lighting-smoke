@@ -1,0 +1,67 @@
+{
+ "n_images": 96,
+ "n_mirrored": 96,
+ "verifier_coverage_all": {
+  "pct": 97.9,
+  "k": 94,
+  "n": 96,
+  "ci95": [
+   92.7,
+   99.4
+  ]
+ },
+ "flip_consistency": {
+  "pct": 97.8,
+  "k": 90,
+  "n": 92,
+  "ci95": [
+   92.4,
+   99.4
+  ]
+ },
+ "verifier_agrees_with_prompt_on_gated": {
+  "pct": 56.4,
+  "k": 53,
+  "n": 94,
+  "ci95": [
+   46.3,
+   66.0
+  ]
+ },
+ "group_reward_std": {
+  "group_size": [
+   4
+  ],
+  "n_groups": 24,
+  "mean": 0.612,
+  "median": 0.658,
+  "frac_groups_std_gt_th": {
+   "pct": 100.0,
+   "k": 24,
+   "n": 24,
+   "ci95": [
+    86.2,
+    100.0
+   ]
+  },
+  "std_threshold": 0.05,
+  "frac_groups_all_gated": {
+   "pct": 91.7,
+   "k": 22,
+   "n": 24,
+   "ci95": [
+    74.2,
+    97.7
+   ]
+  },
+  "frac_groups_none_gated": {
+   "pct": 0.0,
+   "k": 0,
+   "n": 24,
+   "ci95": [
+    0.0,
+    13.8
+   ]
+  }
+ }
+}

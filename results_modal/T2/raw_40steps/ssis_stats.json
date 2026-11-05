@@ -1,0 +1,10 @@
+{
+ "n_calls": 192,
+ "sec_per_image": 0.055276740342378616,
+ "sec_per_image_median": 0.05432724952697754,
+ "peak_vram_gb": 0.549009408,
+ "gpu": "NVIDIA A10",
+ "score_th": 0.1,
+ "min_size_test": 800,
+ "torch": "2.0.1+cu117"
+}

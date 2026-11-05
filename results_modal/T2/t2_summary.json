@@ -1,0 +1,54 @@
+{
+ "n_images": 96,
+ "conf_th": 0.3,
+ "gate_rate": 0.9791666666666666,
+ "pairs_per_image": {
+  "1": 85,
+  "2": 9,
+  "0": 1,
+  "3": 1
+ },
+ "valid_pairs_per_image": {
+  "1": 89,
+  "2": 5,
+  "0": 2
+ },
+ "invalid_reasons": {
+  "low_conf": 7,
+  "empty_mask": 1,
+  "shadow_too_small": 1
+ },
+ "pair_conf_quantiles": {
+  "p10": 0.39,
+  "p25": 0.62,
+  "p50": 0.709,
+  "p75": 0.786,
+  "p90": 0.826
+ },
+ "flip_test_mask_geometry": {
+  "n_gated_original": 94,
+  "mirror_gated_out": 2,
+  "both_gated": 92,
+  "sign_flip_rate_both_gated": 0.9782608695652174,
+  "sign_flip_rate_counting_gate_out_as_fail": 0.9574468085106383
+ },
+ "flip_test_ssis_offset": {
+  "n_gated_original": 94,
+  "mirror_gated_out": 2,
+  "both_gated": 92,
+  "sign_flip_rate_both_gated": 0.9456521739130435,
+  "sign_flip_rate_counting_gate_out_as_fail": 0.925531914893617
+ },
+ "gate_agreement_original_vs_mirror": 0.96875,
+ "inferred_side_counts_on_gated": {
+  "left": 52,
+  "right": 42
+ },
+ "verifier_side_equals_prompted_side": 0.5638297872340425,
+ "mask_vs_offset_side_agreement": 0.925531914893617,
+ "R_cons_defined": 5,
+ "mean_reward_by_target": {
+  "left": 0.18036556249837285,
+  "right": -0.10019088210800993
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "steps": 40,
+ "resolution": 512,
+ "dtype": "fp16",
+ "batch": 8,
+ "n_images": 96,
+ "sec_per_image": 1.8366460477312405,
+ "model_load_s": 13.837327003479004,
+ "text_encode_s_all_prompts": 6.009847164154053,
+ "peak_vram_gb": 7.486704128,
+ "gpu": "NVIDIA L40S",
+ "black_images": 0,
+ "torch": "2.5.1+cu124"
+}
